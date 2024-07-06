@@ -1,54 +1,6 @@
 import { useState } from 'react';
 import './App.css'
-
-const CURRENCIES = {
-  NGN: {
-    name: "Nigerian Naira",
-    rate: 1,
-  },
-  USD: {
-    name: "US Dollar",
-    rate: 1527.50,
-  },
-  EUR: {
-    name: "Euro",
-    rate: 16559.89,
-  },
-  JPY: {
-    name: "Japanese Yen",
-    rate: 9.50,
-  },
-  GBP: {
-    name: "Pound Sterling",
-    rate: 1956.58,
-  },
-  AUD: {
-    name: "Australian Dollar",
-    rate: 1031.14,
-  },
-  CAD: {
-    name: "Canadian Dollar",
-    rate: 1118.11,
-  },
-  CHF: {
-    name: "Swiss Franc",
-    rate: 1704.78,
-  },
-  CNY: {
-    name: "Chinese Yuan",
-    rate: 210.14,
-  },
-  HKD: {
-    name: "Hong Kong Dollar",
-    rate: 195.47,
-  },
-}
-
-type Currency = keyof typeof CURRENCIES
-
-const convert = (fromCurrency: Currency, toCurrency: Currency, amount: number) => {
-  return amount * CURRENCIES[fromCurrency].rate / CURRENCIES[toCurrency].rate
-}
+import { Currency, convert, CURRENCIES } from './currency';
 
 function App() {
   const [fromAmountString, setFromAmountString] = useState('')
@@ -64,7 +16,7 @@ function App() {
       swapInputs()
     }
     if (fromAmountString) {
-      setToAmountString(convert(value, toCurrency, parseFloat(fromAmountString)).toString())
+      setToAmountString(convert(value, toCurrency, parseFloat(fromAmountString)))
     }
   }
 
@@ -75,7 +27,7 @@ function App() {
       swapInputs()
     }
     if (fromAmountString) {
-      setToAmountString(convert(fromCurrency, value, parseFloat(fromAmountString)).toString())
+      setToAmountString(convert(fromCurrency, value, parseFloat(fromAmountString)))
     }
   }
 
@@ -121,7 +73,7 @@ function CurrencyInput({ amountString, setAmountString, setOtherAmountString, cu
     } else {
       const value = Math.max(parseFloat(stringValue), 0)
       setAmountString(value.toString())
-      setOtherAmountString(convert(currency, otherCurrency, value).toString())
+      setOtherAmountString(convert(currency, otherCurrency, value))
     }
   }
 
