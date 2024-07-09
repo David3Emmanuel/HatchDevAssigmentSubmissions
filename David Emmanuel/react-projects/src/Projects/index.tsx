@@ -5,6 +5,7 @@ import SimpleCounter from "./SimpleCounter";
 import ToggleText from "./ToggleText";
 import ColorSwitcher from './ColorSwitcher';
 import TodoList from './TodoList';
+import CharacterCounter from './CharacterCounter';
 
 
 export default {
@@ -30,7 +31,7 @@ export default {
     },
     "Character Counter": {
         description: "Create a text area that shows the number of characters typed.",
-        component: SimpleCounter,
+        component: CharacterCounter,
     },
     "Show/Hide Password": {
         description: "Create an input field with a button to toggle between showing and hiding the password.",
