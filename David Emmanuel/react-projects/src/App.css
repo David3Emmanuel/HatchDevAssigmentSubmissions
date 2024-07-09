@@ -4,6 +4,11 @@
 
 .app {
   display: flex;
+  height: 100vh;
+}
+
+main {
+  overflow-y: auto;
 }
 
 .app h1 {

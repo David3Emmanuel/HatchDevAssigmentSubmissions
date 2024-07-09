@@ -23,7 +23,8 @@ export default function ColorSwitcher() {
             Click to Switch Color
         </button>
         <div style={{
-            width: 400,
+            width: '100%',
+            maxWidth: 400,
             height: 400,
             backgroundColor: `rgb(${r},${g},${b})`
         }} />
