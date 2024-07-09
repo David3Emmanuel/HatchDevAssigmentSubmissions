@@ -7,6 +7,7 @@ import ColorSwitcher from './ColorSwitcher';
 import TodoList from './TodoList';
 import CharacterCounter from './CharacterCounter';
 import ShowHidePassword from './ShowHidePassword';
+import IncrementalList from './IncrementalList';
 
 
 export default {
@@ -40,7 +41,7 @@ export default {
     },
     "Incremental List": {
         description: "Create a button that adds a new item to a list with each click.",
-        component: SimpleCounter,
+        component: IncrementalList,
     },
     "Random Number Generator": {
         description: "Create a button that generates a random number and displays it.",
