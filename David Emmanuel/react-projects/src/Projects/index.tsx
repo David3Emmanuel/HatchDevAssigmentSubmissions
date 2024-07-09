@@ -1,5 +1,6 @@
 import SimpleCounter from "./SimpleCounter";
 
+
 export default {
     "Simple Counter": {
         description: "Create a counter that increases and decreases a number when buttons are clicked.",
