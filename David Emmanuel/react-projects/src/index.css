@@ -66,7 +66,9 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-input, textarea {
+input,
+textarea,
+.input-group {
   border: 1px solid #aaa;
   padding: 0.5rem;
   border-radius: 0.5rem;
@@ -75,7 +77,40 @@ input, textarea {
   font-size: 1rem;
 }
 
-input:focus {
+.input-group {
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  padding: 0;
+}
+
+.input-group input,
+.input-group input:focus {
+  flex: 1;
+  border: none;
+  outline: none;
+}
+
+
+.input-group button,
+.input-group button:hover,
+.input-group button:focus {
+  background: none;
+  border-color: transparent;
+  outline: none;
+}
+
+.input-group *:first-child {
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.input-group *:last-child {
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+input:focus,
+textarea:focus,
+.input-group:has(input:focus) {
   outline: 1.5px solid #555;
 }
 

@@ -6,6 +6,7 @@ import ToggleText from "./ToggleText";
 import ColorSwitcher from './ColorSwitcher';
 import TodoList from './TodoList';
 import CharacterCounter from './CharacterCounter';
+import ShowHidePassword from './ShowHidePassword';
 
 
 export default {
@@ -35,7 +36,7 @@ export default {
     },
     "Show/Hide Password": {
         description: "Create an input field with a button to toggle between showing and hiding the password.",
-        component: SimpleCounter,
+        component: ShowHidePassword,
     },
     "Incremental List": {
         description: "Create a button that adds a new item to a list with each click.",

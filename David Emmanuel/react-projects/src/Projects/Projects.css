@@ -9,7 +9,3 @@
     outline: none;
     border: 1px solid transparent;
 }
-
-input:focus {
-    border: 1px solid #aaa;
-}
