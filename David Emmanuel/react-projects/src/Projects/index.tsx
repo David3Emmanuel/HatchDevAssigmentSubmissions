@@ -1,6 +1,9 @@
+import './Projects.css'
+
 import InputMirror from "./InputMirror";
 import SimpleCounter from "./SimpleCounter";
 import ToggleText from "./ToggleText";
+import ColorSwitcher from './ColorSwitcher';
 
 
 export default {
@@ -18,7 +21,7 @@ export default {
     },
     "Color Switcher": {
         description: "Create a button that changes the background color of a div each time it's clicked.",
-        component: SimpleCounter,
+        component: ColorSwitcher,
     },
     "To-Do List": {
         description: "Create a simple to-do list where users can add and remove items.",

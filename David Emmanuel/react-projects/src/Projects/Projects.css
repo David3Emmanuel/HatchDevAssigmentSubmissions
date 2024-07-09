@@ -1,0 +1,6 @@
+.project {
+    margin: 5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

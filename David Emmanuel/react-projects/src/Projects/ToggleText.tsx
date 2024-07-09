@@ -4,9 +4,9 @@ export default function ToggleText() {
     const [showText, setShowText] = useState(false);
 
     return <div className='project'>
-        <div style={{ display: 'flex', margin: '5rem 1rem', gap: '1rem', height: 50 }}>
+        <div style={{ display: 'flex', gap: '1rem', height: 50 }}>
             <button
-                style={{ width: 125 }}
+                style={{ width: 125, backgroundColor: '#333', color: 'white' }}
                 onClick={() => setShowText(showText => !showText)}
             >
                 {showText ? 'Hide' : 'Show'} Text
