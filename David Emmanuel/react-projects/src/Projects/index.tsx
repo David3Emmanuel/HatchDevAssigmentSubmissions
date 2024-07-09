@@ -1,3 +1,4 @@
+import InputMirror from "./InputMirror";
 import SimpleCounter from "./SimpleCounter";
 import ToggleText from "./ToggleText";
 
@@ -13,7 +14,7 @@ export default {
     },
     "Input Mirror": {
         description: "Create an input field that displays the typed text below it in real-time.",
-        component: SimpleCounter,
+        component: InputMirror,
     },
     "Color Switcher": {
         description: "Create a button that changes the background color of a div each time it's clicked.",
