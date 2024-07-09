@@ -4,6 +4,7 @@ import InputMirror from "./InputMirror";
 import SimpleCounter from "./SimpleCounter";
 import ToggleText from "./ToggleText";
 import ColorSwitcher from './ColorSwitcher';
+import TodoList from './TodoList';
 
 
 export default {
@@ -25,7 +26,7 @@ export default {
     },
     "To-Do List": {
         description: "Create a simple to-do list where users can add and remove items.",
-        component: SimpleCounter,
+        component: TodoList,
     },
     "Character Counter": {
         description: "Create a text area that shows the number of characters typed.",

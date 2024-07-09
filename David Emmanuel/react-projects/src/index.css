@@ -78,3 +78,7 @@ input {
 input:focus {
   outline: 1.5px solid #555;
 }
+
+input[type='checkbox'] {
+  outline: none;
+}
