@@ -1,4 +1,5 @@
 import SimpleCounter from "./SimpleCounter";
+import ToggleText from "./ToggleText";
 
 
 export default {
@@ -8,7 +9,7 @@ export default {
     },
     "Toggle Text": {
         description: "Create a button that toggles between showing and hiding a piece of text.",
-        component: SimpleCounter,
+        component: ToggleText,
     },
     "Input Mirror": {
         description: "Create an input field that displays the typed text below it in real-time.",
