@@ -8,6 +8,7 @@ import TodoList from './TodoList';
 import CharacterCounter from './CharacterCounter';
 import ShowHidePassword from './ShowHidePassword';
 import IncrementalList from './IncrementalList';
+import RandomNumberGenerator from './RandomNumberGenerator';
 
 
 export default {
@@ -45,7 +46,7 @@ export default {
     },
     "Random Number Generator": {
         description: "Create a button that generates a random number and displays it.",
-        component: SimpleCounter,
+        component: RandomNumberGenerator,
     },
     "Form Submission": {
         description: "Create a simple form with validation that displays submitted data.",
