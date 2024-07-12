@@ -9,6 +9,7 @@ import CharacterCounter from './CharacterCounter';
 import ShowHidePassword from './ShowHidePassword';
 import IncrementalList from './IncrementalList';
 import RandomNumberGenerator from './RandomNumberGenerator';
+import FormSubmission from './FormSubmission';
 
 
 export default {
@@ -50,7 +51,7 @@ export default {
     },
     "Form Submission": {
         description: "Create a simple form with validation that displays submitted data.",
-        component: SimpleCounter,
+        component: FormSubmission,
     },
     "Image Gallery": {
         description: "Create a gallery where clicking on thumbnails displays a larger image.",
