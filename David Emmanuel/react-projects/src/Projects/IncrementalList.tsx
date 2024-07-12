@@ -8,7 +8,7 @@ export default function IncrementalList() {
         setItems(items => [...items, `Item ${items.length + 1}`])
     }
 
-    return <div className='project' style={{ maxWidth: 500, marginLeft: 'auto', marginRight: 'auto' }}>
+    return <div className='project' style={{ maxWidth: 500, marginTop: '3rem', marginLeft: 'auto', marginRight: 'auto' }}>
         <button onClick={addItem}>Add Item</button>
         <ul>
             {items.map((item, i) => <li key={i}>{item}</li>)}

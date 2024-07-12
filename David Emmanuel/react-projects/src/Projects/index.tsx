@@ -1,8 +1,10 @@
 import './Projects.css'
 
-import InputMirror from "./InputMirror";
-import SimpleCounter from "./SimpleCounter";
+import Template from "./Template";
+
+import SimpleCounter from './SimpleCounter';
 import ToggleText from "./ToggleText";
+import InputMirror from "./InputMirror";
 import ColorSwitcher from './ColorSwitcher';
 import TodoList from './TodoList';
 import CharacterCounter from './CharacterCounter';
@@ -60,78 +62,78 @@ export default {
     },
     "Stopwatch": {
         description: "Create a basic stopwatch with start, stop, and reset functionalities.",
-        component: SimpleCounter,
+        component: Template,
     },
     "Theme Switcher": {
         description: "Create a switch to toggle between dark and light themes.",
-        component: SimpleCounter,
+        component: Template,
     },
     "Accordion": {
         description: "Create a simple accordion where clicking a header shows/hides content.",
-        component: SimpleCounter,
+        component: Template,
     },
     "Temperature Converter": {
         description: "Create a tool to convert temperatures between Celsius and Fahrenheit.",
-        component: SimpleCounter,
+        component: Template,
     },
     "Simple Modal": {
         description: "Create a button that opens a modal dialog with some content.",
-        component: SimpleCounter,
+        component: Template,
     },
     "Favorite Items": {
         description: "Create a list of items with a button to mark them as favorite.",
-        component: SimpleCounter,
+        component: Template,
     },
     "Dynamic Greeting": {
         description: "Create a form to enter a name and display a personalized greeting.",
-        component: SimpleCounter,
+        component: Template,
     },
     "Emoji Picker": {
         description: "Create a dropdown to select an emoji and display it.",
-        component: SimpleCounter,
+        component: Template,
     },
     "Counter with Step": {
         description: "Create a counter where users can set the step value for increment/decrement.",
-        component: SimpleCounter,
+        component: Template,
     },
     "Random Quote Generator": {
         description: "Create a button that fetches and displays a random quote.",
-        component: SimpleCounter,
+        component: Template,
     },
     "Tab Navigation": {
         description: "Create a simple tab navigation component to switch between content sections.",
-        component: SimpleCounter,
+        component: Template,
     },
     "Simple Quiz": {
         description: "Create a quiz with multiple-choice questions and display the score.",
-        component: SimpleCounter,
+        component: Template,
     },
     "Image Carousel": {
         description: "Create a simple image carousel with next and previous buttons.",
-        component: SimpleCounter,
+        component: Template,
     },
     "Dropdown Menu": {
         description: "Create a dropdown menu that displays a list of options on click.",
-        component: SimpleCounter,
+        component: Template,
     },
     "Color Picker": {
         description: "Create a color picker input and display the selected color.",
-        component: SimpleCounter,
+        component: Template,
     },
     "Mouse Position Tracker": {
         description: "Create a component that tracks and displays the mouse position.",
-        component: SimpleCounter,
+        component: Template,
     },
     "Star Rating": {
         description: "Create a star rating component that allows users to select a rating.",
-        component: SimpleCounter,
+        component: Template,
     },
     "Weather App": {
         description: "Create a simple weather display using mock data.",
-        component: SimpleCounter,
+        component: Template,
     },
     "Currency Converter": {
         description: "Create a tool to convert amounts between different currencies using mock data.",
-        component: SimpleCounter,
+        component: Template,
     }
 }

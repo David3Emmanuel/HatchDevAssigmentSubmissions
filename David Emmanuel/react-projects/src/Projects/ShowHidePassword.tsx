@@ -3,7 +3,7 @@ import { useState } from "react"
 export default function ShowHidePassword() {
     const [password, showPassword] = useState('')
 
-    return <div className='password' style={{ maxWidth: 500, marginLeft: 'auto', marginRight: 'auto' }}>
+    return <div className='project' style={{ maxWidth: 500, marginLeft: 'auto', marginRight: 'auto' }}>
         <PasswordInput password={password} setPassword={showPassword} />
     </div>
 }

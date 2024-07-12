@@ -8,6 +8,6 @@ export default function RandomNumberGenerator() {
             style={{ width: 125, backgroundColor: '#333', color: 'white' }}
             onClick={() => setRandomNumber(Math.floor(Math.random() * 100))}
         >Generate</button>
-        <p style={{ flex: 1 }}>{randomNumber}</p>
+        <h3 style={{ flex: 1, margin: 0, display: 'flex', alignItems: 'center' }}>{randomNumber}</h3>
     </div>
 }
