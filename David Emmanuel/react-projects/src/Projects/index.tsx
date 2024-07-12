@@ -10,6 +10,7 @@ import ShowHidePassword from './ShowHidePassword';
 import IncrementalList from './IncrementalList';
 import RandomNumberGenerator from './RandomNumberGenerator';
 import FormSubmission from './FormSubmission';
+import ImageGallery from './ImageGallery';
 
 
 export default {
@@ -55,7 +56,7 @@ export default {
     },
     "Image Gallery": {
         description: "Create a gallery where clicking on thumbnails displays a larger image.",
-        component: SimpleCounter,
+        component: ImageGallery,
     },
     "Stopwatch": {
         description: "Create a basic stopwatch with start, stop, and reset functionalities.",
